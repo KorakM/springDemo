@@ -13,7 +13,7 @@
     </bean>
 
     <bean id="myCoach"
-          class="com.love2code.springDemo.BaseballCoach">
+          class="com.love2code.springDemo.TrackCoach">
         <constructor-arg ref="myFortuneService"/>
     </bean>
 
