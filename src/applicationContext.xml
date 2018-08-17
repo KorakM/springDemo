@@ -13,8 +13,13 @@
     </bean>
 
     <bean id="myCoach"
-          class="com.love2code.springDemo.TrackCoach">
+          class="com.love2code.springDemo.BaseballCoach">
         <constructor-arg ref="myFortuneService"/>
+    </bean>
+
+    <bean id="mySwimmingCoach"
+          class="com.love2code.springDemo.SwimmingCoach">
+        <property name="fortuneService" ref="myFortuneService"/>
     </bean>
 
 </beans>
