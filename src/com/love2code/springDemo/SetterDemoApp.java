@@ -1,7 +1,6 @@
 package com.love2code.springDemo;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.messaging.support.AbstractSubscribableChannel;
 
 /**
  * Created by Korak Mitra
